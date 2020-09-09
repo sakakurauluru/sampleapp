@@ -13,7 +13,7 @@
 
 // 取引登録
 Route::post('/payment/EntryTran.idPass', function () {
-    sleep(28);
+    sleep(31);
     return 'AccessID=4bdef2f1c811e1d8f3895ac4b2e8fdd9&AccessPass=5225917879478d7c15364dee20d84322';
 });
 
