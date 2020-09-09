@@ -30,7 +30,7 @@ Route::post('/payment/ExecTran.idPass', function () {
 });
 
 // クレジットカード登録
-Route::post('/payment/SaveCard.idPass', function () {
+Route::post('/payment/SearchMember.idPass', function () {
     sleep(300);
     return '';
 });
