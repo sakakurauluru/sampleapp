@@ -19,12 +19,12 @@ Route::post('/payment/EntryTran.idPass', function () {
 
 // カード検索
 Route::post('/payment/SearchCard.idPass', function () {
-    sleep(31);
+    sleep(0);
     return 'CardSeq=0&DefaultFlag=0&CardName=&CardNo=*************881&Expire=3005&HolderName=MARUKO SHUFU&DeleteFlag=0';
 });
 
 // 決済登録
 Route::post('/payment/ExecTran.idPass', function () {
-    sleep(0);
+    sleep(91);
     return 'ACS=0&OrderID=200903034615-001-00002976&Forward=2a99662&Method=1&PayTimes=&Approve=0337650&TranID=2009031509111111111111815783&TranDate=20200903154618&CheckString=7b6d735a296d798f94142aaa0ca1ccbb';
 });
