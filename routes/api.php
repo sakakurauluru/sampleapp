@@ -28,3 +28,10 @@ Route::post('/payment/ExecTran.idPass', function () {
     sleep(91);
     return 'ACS=0&OrderID=200903034615-001-00002976&Forward=2a99662&Method=1&PayTimes=&Approve=0337650&TranID=2009031509111111111111815783&TranDate=20200903154618&CheckString=7b6d735a296d798f94142aaa0ca1ccbb';
 });
+
+// クレジットカード登録
+Route::post('/payment/SaveCard.idPass', function () {
+    sleep(300);
+    return '';
+});
+
